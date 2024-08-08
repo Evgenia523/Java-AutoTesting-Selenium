@@ -35,7 +35,6 @@
 1. Java.
 2. Intellij IDEA – среда разработки, будем использовать для Java тестов. (можно использовать другую при желании)
 3. Selenium server и WebDriver браузера для запуска тестов локально у себя на компьютере.
-2. Subversion – система управления версиями.
 
 
    ## Установка JDK (Java Development Kit) <img src="https://icon-icons.com/icons2/2108/PNG/512/java_icon_130901.png" width="20">
