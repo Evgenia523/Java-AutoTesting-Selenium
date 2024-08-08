@@ -53,7 +53,34 @@
    
 4. Если JDK установлен успешно, она отобразит версию вашей установленной JDK.
 
+   ![image](https://github.com/albnsp/selenium-java-test/assets/144931244/c57cfaab-4c44-4dd9-8b34-5e2ada4717bf)
 
+# Установка драйвера для браузера: Windows
+Опишем пример установки драйвера для браузера 
+`Chrome`. Для установки откройте сайт
+```
+https://sites.google.com/a/chromium.org/chromedriver/ downloads
+```
+и скачайте ту версию `ChromeDriver`, которая соответствует версии вашего браузера  
+
+![image](https://github.com/albnsp/selenium-java-test/assets/144931244/eda64bb4-60f8-4712-9a65-cb85f6de666d)
+
+Чтобы узнать версию браузера, откройте новое окно 
+в `Chrome`, в поисковой строке наберите: 
+```
+chrome://version/
+```
+и нажмите `Enter`. В верхней строчке вы увидите информацию про версию браузера 
+
+![image](https://github.com/albnsp/selenium-java-test/assets/144931244/54ef8ec0-9e33-4c8f-a3d5-46c33b1a489d)
+
+Разархивируйте скачанный файл. Создайте на диске 
+`C:` папку `webdrivers` и положите разархивированный ранее файл `chromedriver.exe` в папку `C:\webdrivers`.
+Добавьте в системную переменную `PATH` папку 
+```
+C:\webdrivers
+```
+![image](https://github.com/albnsp/selenium-java-test/assets/144931244/8a79ce44-08d0-462c-8e8e-fe6c1eb73a25)
 
 ## Установка и настройка библиотеки Selenium Java <img src="https://img.icons8.com/?size=256&id=VOnRj9vGpXV8&format=png" width="20">
 
@@ -99,15 +126,6 @@
 4. Открыть вкладку`Modules` а затем выбрать перейти в раздел `Dependencies`.
 5. Нажать на символ `+`, после чего выбрать опцию `JARs or directories`.
 6. Выбрать директорию, куда сохранили загруженную библиотеки Selenium и нажать `OK`.
-
-## Установка WebDriver (Chrome) <img src="https://www.svgrepo.com/show/303566/chrome-7-logo.svg" width="20">
-
-
-1. Перейдите на [официальный сайт ChromeLabs](https://googlechromelabs.github.io/chrome-for-testing/)
-2. Из появившегося списка, выберите и загрузите стабильную версию драйвера (версия браузера и веб-драйвера должны
-   совпадать)
-3. Распакуйте драйвер в удобное для вас место.
-
 
 
 ## Установка и простая настройка Selenium Server (Grid) <img src="https://air.imag.fr/images/7/73/Selenium_Grid_Logo.png" width="20">
